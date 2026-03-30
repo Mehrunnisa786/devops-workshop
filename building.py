@@ -1,7 +1,9 @@
-def hello():
-    """
-    this is demo
-    """
-    return "this is demo" 
+"""Simple demo module."""
 
-hello()
+def hello():
+    """This is a demo function."""
+    return "this is demo"
+
+
+if __name__ == "__main__":
+    print(hello())
