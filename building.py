@@ -1,1 +1,7 @@
-print("creating a new push repository")
+def hello():
+    """
+    this is demo
+    """
+    return "this is demo" 
+
+hello()
